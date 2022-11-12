@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="icon" href="../IMAGES/logofinal.png" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="about.css" />
+  </head>
+  <body>
+    <header>
+      <a href="mainpage.html"
+        ><img width="90px" height="90px" src="../IMAGES/logofinal.png" alt=""
+      /></a>
+      <nav>
+        <a href="#">MENU</a>
+        <a href="#" class="locations" onclick="myFunction()">
+          LOCATIONS
+          <span class="popuptext" id="popout"></span>
+        </a>
+        <a href="#">CONTACT</a>
+        <a href="about.html">ABOUT</a>
+      </nav>
+    </header>
+    <main>
+      <h1>About Us</h1>
+      <p>
+        Pizza is one of the meals that children and adults love, and it cannot
+        be resisted, especially when it is fresh and contains ingredients that
+        are loved by the person.
+        <br />
+        <br />
+        Seeing it fumes and oil shining on the face with cheese, tomatoes and
+        chicken pieces makes a person want to eat them immediately. So it is
+        great to eat it from time to time and make it like a weekly meal.
+        <br />
+        <br />
+        For those who want to eat it continuously, doctors advise using healthy
+        ingredients so as not to cause weight gain. Many healthy food recipes
+        can be found that help preserve energy and give full nutrients without
+        obesity and high calorie intake. Therefore, it is wonderful in all
+        cases, whether it is healthy or what we eat from restaurants.
+      </p>
+    </main>
+    <footer>
+      <div class="feedback">
+        <h1>FEEDBACK US</h1>
+        <form method="post">
+          <label for="email">EMAIL </label>
+          <input
+            type="email"
+            required
+            placeholder="EMAIL"
+            name="email"
+            id="email"
+          />
+          <label class="label-feedback" for="text">FEEDBACK</label>
+          <textarea
+            name="text"
+            id="text"
+            cols="30"
+            rows="5"
+            placeholder="FEEDBACK HERE"
+          ></textarea>
+          <input class="special" type="submit" value="SEND" />
+        </form>
+      </div>
+      <div class="main-footer">
+        <h3>
+          MADE WITH <span> &hearts; </span> BY AYOUB AND KHALID
+          <br />
+          <br />
+          &copy; Copyright 2022 Solutions All Rights Reserved
+        </h3>
+        <div class="socials">
+          <h4><q>SOCIALS</q></h4>
+          <ul>
+            <ul>
+              <li>
+                <a href="https:\\www.facebook.com" target="_blank"
+                  ><i id="first" class="fab fa-facebook-square"></i
+                ></a>
+              </li>
+              <li><a href="https:\\www.instagram.com"><i id="second" class="fab fa-instagram"></i></a></li>
+              <li><a href="https:\\www.linkedin.com"><i id="third" class="fab fa-linkedin"></i></a></li>
+              <li><a href="https:\\www.twitter.com"><i id="fourth" class="fab fa-twitter-square"></i></a></li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    function myFunction() {
+      var popup = document.getElementById("popout");
+      popup.classList.toggle("show");
+    }
+  </script>
+</html>
